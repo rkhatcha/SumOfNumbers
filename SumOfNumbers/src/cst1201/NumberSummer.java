@@ -24,6 +24,7 @@ public class NumberSummer {
             while (numberToAdd <= maxNumber) {                
                 System.out.print(numberToAdd++ + ", ");
                 //TODO: sum += numberToAdd;
+                sum += numberToAdd;
             }
             System.out.println(); //prints an extra line.
             
