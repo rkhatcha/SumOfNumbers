@@ -16,9 +16,13 @@ public class NumberSummer {
         System.out.print("Please enter a positive non-zero integer: ");
         Scanner scan = new Scanner(System.in);
         int maxNumber = scan.nextInt();
-        
+        int count, input;
+
         if (maxNumber > 0) {
             int sum = 0;
+            for (int i = 1; i <= maxNumber; i++) {
+                sum += i;
+            }
             int numberToAdd = 1;
             
             while (numberToAdd <= maxNumber) {                
